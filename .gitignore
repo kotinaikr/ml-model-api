@@ -1,0 +1,46 @@
+# =========================
+# Python Bytecode & Cache
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.venv/
+env/
+.env/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.local
+
+# =========================
+# Machine Learning Artifacts
+# =========================
+# Ignore the serialized model files if you plan to train them dynamically 
+# in Docker, or if the datasets/models become too large for Git.
+*.joblib
+*.pkl
+*.h5
+
+# Ignore the raw dataset if it is large (optional, but good practice)
+*.csv
+!dataset.csv  # (Uncomment this if you DO want to commit a small sample dataset)
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDEs and Editors
+# =========================
+.vscode/
+.idea/
